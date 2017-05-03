@@ -1,7 +1,7 @@
 The Kernel version 4.11.0-rc8 was based on Ubuntu mainline build to have a better experience.
 git://git.launchpad.net/~ubuntu-kernel-test/ubuntu/+source/linux/+git/mainline-crack
 
-Unlike UP board, this kernel should be work for other CherrtTrail tablets and laptops, because LattePanda focued on the Atmel MCU and developed it.
+Unlike UP board, this kernel should work for other CherrtTrail tablets and laptops, because LattePanda focued on the Atmel MCU and developed it.
 
 This repository could be cooperative. Any comments and suggestions will be appreciated.
 
