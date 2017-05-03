@@ -34,7 +34,7 @@ Steps:
 11. sudo make firmware_install
 12. sudo make headers_install
 13. sudo make install
-14. patch UCM configuration file file to /usr/share/alsa/ucm/chtrt5645
+14. patch UCM configuration file to /usr/share/alsa/ucm/chtrt5645
 15. build rtl8723bs_bt dirver
 16. move binary to /usr/sbin
 17. add systemd service rtl8723bsbt.service
