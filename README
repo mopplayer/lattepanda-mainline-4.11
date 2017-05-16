@@ -53,7 +53,6 @@ Download and install firmwares, but assume that CherryTrail is not involved in t
 https://01.org/linuxgraphics/downloads/firmware
 
 21. reboot and play, you could edit your grub menu to roll back original kernel.
-
 -------------------------------------------------------------------------------------------
 
 If you want to install the kernel and apply all steps, there are steps as follows:
