@@ -56,6 +56,8 @@ https://01.org/linuxgraphics/downloads/firmware
 
 -------------------------------------------------------------------------------------------
 
-If you want to install the kernel, just merge the Zip files to get a DEB file.
+If you want to install the kernel and apply all steps, you just merge the Zip files to get a DEB file.
+-------------------------------------------------------------------------------------------
 package directory: (split Zip file)
 Prebuilt Linux kernel and modules by a DEB file, it is easy to install.
+-------------------------------------------------------------------------------------------
