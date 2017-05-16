@@ -20,7 +20,7 @@ South Bridge -> Chipset -> SCC Configuration
 SCC SDIO Support -> PCI Mode
 SCC SD Card Support -> PCI Mode
 
-If you want to build your own kernel, there are steps as follows:
+If you want to build your own kernel step-by-step, there are steps as follows:
 -------------------------------------------------------------------------------------------
 1. Install Ubuntu 16.04.2 ISO from Ubuntu official website, make sure that installation is only in UEFI boot mode.
 2. modify GRUB_CMDLINE_LINUX_DEFAULT="quiet splash intel_idle.max_cstate=1" to /etc/default/grub, it will prevent system freeze.
