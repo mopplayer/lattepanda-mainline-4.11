@@ -56,8 +56,11 @@ https://01.org/linuxgraphics/downloads/firmware
 
 -------------------------------------------------------------------------------------------
 
-If you want to install the kernel and apply all steps, you just merge the Zip files to get a DEB file.
+If you want to install the kernel and apply all steps, there are steps as follows:
 -------------------------------------------------------------------------------------------
 package directory: (split Zip file)
-Prebuilt Linux kernel and modules by a DEB file, it is easy to install.
+Prebuilt Linux kernel, modules and steps by a DEB file, it is easy to install.
+1. merge the Zip files to get a DEB file.
+2. sudo dpkg -i <package>
+3. reboot your lattePanda to take effect.
 -------------------------------------------------------------------------------------------
