@@ -59,7 +59,8 @@ If you want to install the kernel and apply all steps, there are steps as follow
 -------------------------------------------------------------------------------------------
 package directory: (split Zip file)
 Prebuilt Linux kernel, modules and steps by a DEB file, it is easy to install.
-1. merge the Zip files to get a DEB file.
-2. sudo dpkg -i <package>
-3. reboot your LattePanda to take effect.
+1. merge the Zip files to get a DEB file, cd in package directory.
+2. cat lattepanda-64-mainline_4.12.0-rc1-1_amd64.deb.parta* > lattepanda-64-mainline_4.12.0-rc1-1_amd64.deb
+3. sudo dpkg -i lattepanda-64-mainline_4.12.0-rc1-1_amd64.deb
+4. reboot your LattePanda to take effect.
 -------------------------------------------------------------------------------------------
