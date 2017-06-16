@@ -1,0 +1,12 @@
+[Unit]
+Description=RTL8723BS Bluetooth daemon
+After=syslog.target
+
+[Service]
+Type=simple
+ExecStartPre=/bin/bash -c 'grep -qm 1 r8723bs /proc/modules'
+ExecStart=/usr/sbin/rtk_hciattach -n -s 115200 ttyS4 rtk_h5
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+[Unit]
+Description=BCM43340 Bluetooth daemon
+After=syslog.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/btattach --bredr /dev/ttyS4 -P bcm
+ExecStop=/usr/bin/killall btattach
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
