@@ -1,6 +1,6 @@
 # Introduction
   * The Kernel version 4.12.0-rc1 was based on Ubuntu mainline build to have a better experience.
-  * [Mainline build](git://git.launchpad.net/~ubuntu-kernel-test/ubuntu/+source/linux/+git/mainline-crack)
+  * [Mainline build](http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.12-rc1/)
   * Unlike UP board, this kernel should work for other CherryTrail tablets and laptops, because LattePanda focused on the Atmel MCU and developed it.
   * This repository could be cooperative. Any comments and suggestions will be appreciated.
 
