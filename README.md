@@ -61,7 +61,7 @@
   * z8350 directory: (split files)
   * Prebuilt Linux kernel, modules and steps by a DEB file, it is easy to install.
   * 1. merge the split files to get a DEB file, cd in package directory.
-  * 2. cat lattepanda-64-mainline_4.12.0-rc1-1_amd64.deb.parta* > lattepanda-64-mainline_4.12.0-rc1-1_amd64.deb
+  * 2. cat lattepanda-z8350-64-mainline_4.12.0-rc1-1_amd64.deb.parta* > lattepanda-z8350-64-mainline_4.12.0-rc1-1_amd64.deb
   * 3. sudo dpkg -i lattepanda-64-mainline_4.12.0-rc1-1_amd64.deb
   * 4. reboot your LattePanda to take effect.
 -------------------------------------------------------------------------------------------
