@@ -24,7 +24,7 @@
 * If you want to build your own kernel step-by-step, there are steps as follows:
 -------------------------------------------------------------------------------------------
   * 1. Install Ubuntu 16.04.2 ISO from Ubuntu official website, make sure that installation is only in UEFI boot mode.
-  * 2. modify GRUB_CMDLINE_LINUX_DEFAULT="quiet splash intel_idle.max_cstate=1" to /etc/default/grub, it will prevent system freeze.
+  * 2. modify GRUB_CMDLINE_LINUX_DEFAULT="quiet splash intel_idle.max_cstate=1" to /etc/default/grub, it will prevent system freezing.
   * 3. In the terminal, sudo apt-get update
   * 4. sudo apt-get dist-upgrade
   * 5. sudo apt-get install git
@@ -53,7 +53,7 @@
     * Download and install firmwares, but assume that CherryTrail is not involved in the firmwares.
     * [Intel firmwares](https://01.org/linuxgraphics/downloads/firmware)
 
-  * 21. reboot and play, you could edit your grub menu to roll back original kernel.
+  * 21. reboot and play. You could edit your grub menu to roll back original kernel.
 -------------------------------------------------------------------------------------------
 
 * If you want to install the kernel and apply all steps, there are steps as follows:
@@ -83,7 +83,7 @@
 * If you want to build your own kernel step-by-step, there are steps as follows:
 -------------------------------------------------------------------------------------------
   * 1. Install Ubuntu 16.04.2 ISO from Ubuntu official website, make sure that installation is only in UEFI boot mode.
-  * 2. modify GRUB_CMDLINE_LINUX_DEFAULT="quiet splash intel_idle.max_cstate=1" to /etc/default/grub, it will prevent system freeze.
+  * 2. modify GRUB_CMDLINE_LINUX_DEFAULT="quiet splash intel_idle.max_cstate=1" to /etc/default/grub, it will prevent system freezing.
   * 3. In the terminal, sudo apt-get update
   * 4. sudo apt-get dist-upgrade
   * 5. sudo apt-get install git
@@ -110,7 +110,7 @@
     * Download and install firmwares, but assume that CherryTrail is not involved in the firmwares.
     * [Intel firmwares](https://01.org/linuxgraphics/downloads/firmware)
 
-  * 19. reboot and play, you could edit your grub menu to roll back original kernel.
+  * 19. reboot and play. You could edit your grub menu to roll back original kernel.
 -------------------------------------------------------------------------------------------
 
 * If you want to install the kernel and apply all steps, there are steps as follows:
