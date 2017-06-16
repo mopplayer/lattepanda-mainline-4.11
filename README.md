@@ -23,26 +23,26 @@
 
 * If you want to build your own kernel step-by-step, there are steps as follows:
 -------------------------------------------------------------------------------------------
-  1. Install Ubuntu 16.04.2 ISO from Ubuntu official website, make sure that installation is only in UEFI boot mode.
-  2. modify GRUB_CMDLINE_LINUX_DEFAULT="quiet splash intel_idle.max_cstate=1" to /etc/default/grub, it will prevent system freezing.
-  3. In the terminal, sudo apt-get update
-  4. sudo apt-get dist-upgrade
-  5. sudo apt-get install git
-  6. git clone this repository.
-  7. cd in
-  8. make mrproper
-  9. make upboard_defconfig
-  10. make -j4
-  11. sudo make modules_install
-  12. sudo make firmware_install
-  13. sudo make headers_install
-  14. sudo make install
-  15. patch UCM configuration file to /usr/share/alsa/ucm/chtrt5645
-  16. build rtl8723bs_bt dirver
-  17. move binary to /usr/sbin
-  18. add systemd service rtl8723bsbt.service
-  19. link BT service for all users
-  20. patch BT and WiFi firmware to /lib/firmware
+  * 1. Install Ubuntu 16.04.2 ISO from Ubuntu official website, make sure that installation is only in UEFI boot mode.
+  * 2. modify GRUB_CMDLINE_LINUX_DEFAULT="quiet splash intel_idle.max_cstate=1" to /etc/default/grub, it will prevent system freezing.
+  * 3. In the terminal, sudo apt-get update
+  * 4. sudo apt-get dist-upgrade
+  * 5. sudo apt-get install git
+  * 6. git clone this repository.
+  * 7. cd in
+  * 8. make mrproper
+  * 9. make upboard_defconfig
+  * 10. make -j4
+  * 11. sudo make modules_install
+  * 12. sudo make firmware_install
+  * 13. sudo make headers_install
+  * 14. sudo make install
+  * 15. patch UCM configuration file to /usr/share/alsa/ucm/chtrt5645
+  * 16. build rtl8723bs_bt dirver
+  * 17. move binary to /usr/sbin
+  * 18. add systemd service rtl8723bsbt.service
+  * 19. link BT service for all users
+  * 20. patch BT and WiFi firmware to /lib/firmware
 
   * p.s. 
   * If you see warnings as follows:
@@ -53,7 +53,7 @@
     * Download and install firmwares, but assume that CherryTrail is not involved in the firmwares.
     * [Intel firmwares](https://01.org/linuxgraphics/downloads/firmware)
 
-  21. reboot and play. You could edit your grub menu to roll back original kernel.
+  * 21. reboot and play. You could edit your grub menu to roll back original kernel.
 -------------------------------------------------------------------------------------------
 
 * If you want to install the kernel and apply all steps, there are steps as follows:
