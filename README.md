@@ -31,7 +31,7 @@
   * 6. git clone this repository.
   * 7. cd in
   * 8. make mrproper
-  * 9. make upboard_defconfig
+  * 9. make lattepanda_64_defconfig
   * 10. make -j4
   * 11. sudo make modules_install
   * 12. sudo make firmware_install
